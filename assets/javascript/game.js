@@ -52,7 +52,7 @@ var guessInput = function(){
     wrongLetters.appendChild(letter); 
     wrongLetter++;
     var hangman = document.getElementById("hangman");
-    hangman.src = "http://www.writteninpencil.de/Projekte/Hangman/hangman" + wrongLetter + ".png";
+    hangman.src = "" + wrongLetter + ".png";
   }
   
   //checks if all letters have been found
