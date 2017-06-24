@@ -52,7 +52,7 @@ var guessInput = function(){
     wrongLetters.appendChild(letter); 
     wrongLetter++;
     var hangman = document.getElementById("hangman");
-    hangman.src = "assets/images/hangman0.png" + wrongLetter + ".png";
+    hangman.src = "assets/images/" + wrongLetter + ".png";
   }
   
   //checks if all letters have been found
