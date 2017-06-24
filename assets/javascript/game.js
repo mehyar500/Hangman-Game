@@ -4,7 +4,7 @@ var wordsArray = [
   ["W","E","B","D","E","S","I","G","N"],
   ["E","D","U","C","A","T","I","O","N"],
   ["C","H","O","C","O","L","A","T","E"],
-  ["G","E","R","M","A","N","Y"]
+  ["S","Y","R","I","A"]
 ]
 var random = Math.floor((Math.random()*(wordsArray.length-1))); 
 
